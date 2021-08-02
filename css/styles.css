@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #242325;
+}
+header figure {
+  width: 80px;
+}
+header figure img {
+  width: 100%;
+}
+header nav {
+  width: 40%;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+header nav ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #f2f2f2;
+  border-bottom: 1px solid transparent;
+}
+header nav ul li a:hover {
+  border-color: #f2f2f2;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+.container section,
+.container main {
+  width: 100%;
+}
+.container .home {
+  width: 100%;
+  min-height: 600px;
+  height: 600px;
+  text-align: center;
+  background-color: #f2f2f2a3;
+  background-image: url("../src/images/background.jpg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container .home .background {
+  width: 100%;
+  height: 100%;
+  background-color: #b3b3b3d5;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .home .background .content h1 {
+  font-size: 7rem;
+  width: 100%;
+  color: #005880;
+}
+.container .home .background .content p {
+  display: block;
+  width: 65%;
+  margin: 3rem auto;
+  font-size: 2rem;
+  line-height: 25px;
+  color: #242325;
+}
+.container .home .background .content .boton {
+  display: block;
+  width: 12rem;
+  padding: 15px;
+  margin: 0px auto;
+  margin-top: 25px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  background-color: #005880;
+  border-radius: 0.7rem;
+  color: #f2f2f2;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+}
+.container .home .background .content .boton:hover {
+  box-shadow: 2px 2px 10px 5px #b3b3b3;
+  transform: scale(1.1);
+}
+.container .home .background .content .boton:active {
+  transform: scale(0.9);
+}
+.container #definicion {
+  width: 100%;
+  height: auto;
+  color: #232324;
+  font-size: 1.8rem;
+  text-align: center;
+  background-image: url("../src/images/main.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: 500;
+}
+.container #definicion .main-background {
+  background-color: #b3b3b3d5;
+  width: 100%;
+  height: 100%;
+  padding: 2.5rem;
+}
+.container #definicion h2 {
+  text-align: center;
+  color: #005880;
+  font-size: 3.5rem;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.container #definicion p {
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px;
+  text-align: justify;
+}
+.container #definicion .imagen_contenido {
+  width: 500px;
+  border-radius: 0.7rem;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.container #definicion ul {
+  width: 80%;
+  margin: 15px auto;
+  padding-left: 80px;
+  text-align: left;
+}
+.container #definicion table {
+  width: 50%;
+  margin: 30px auto;
+  border: 1px solid #242325;
+  border-collapse: collapse;
+}
+.container #definicion table th {
+  padding: 7px;
+}
+.container #definicion table td {
+  border: 1px solid #242325;
+  padding: 15px;
+}
+.container #definicion h3 {
+  text-align: center;
+  color: #005880;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.container .section {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 2.5rem;
+  font-size: 1.8rem;
+}
+.container .section h2 {
+  text-align: center;
+  color: #005880;
+  font-size: 3.5rem;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.container .section p {
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px;
+  text-align: justify;
+}
+.container .section ul {
+  width: 80%;
+  margin: 15px auto;
+  padding-left: 80px;
+  text-align: left;
+}
+.container .section .contenedor-imagenes {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .section .contenedor-imagenes figure {
+  margin-top: 50px;
+}
+.container .section .contenedor-imagenes figure img {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.container .section .contenedor-imagenes figure figcaption {
+  color: #0c0c64;
+}
+
+footer {
+  width: 100%;
+  padding: 40px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: #242325;
+  color: white;
+  line-height: 25px;
+}
+footer p a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
